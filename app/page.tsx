@@ -344,12 +344,30 @@ export default function Home() {
           where I can automate and improve infrastructure.
         </p>
 
-        <a
-          href="mailto:junaidahmed.soomro01@gmail.com"
-          className="contact-button"
-        >
-          Start a Conversation ↗
-        </a>
+        <div className="contact-links">
+          <a
+            href="mailto:junaidahmed.soomro01@gmail.com"
+            className="contact-button"
+          >
+            Email Me ↗
+          </a>
+
+          <a
+            href="tel:03060360258"
+            className="contact-button"
+          >
+            03060360258
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/junaid-ahmed-84a840225/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-button"
+          >
+            LinkedIn ↗
+          </a>
+        </div>
 
         <div className="contact-footer">
           <span>Junaid Ahmed</span>
